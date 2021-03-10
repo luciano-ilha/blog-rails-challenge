@@ -3,7 +3,6 @@ jobs:
   build:
     docker:
       - image: circleci/ruby:2.7.2-node
-    executor: ruby/default
     steps:
       - checkout
       - run:
