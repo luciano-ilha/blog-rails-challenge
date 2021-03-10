@@ -5,12 +5,12 @@ jobs:
       - image: circleci/ruby:2.7.2-node
     steps:
       - checkout
-      - prepare-gems:
+      - run:
           name: Run Bundler
           command: "bundle install"
-      - is-rails-there:
+      - run:
           name: Check Rails Version
           command: "rails -v"
-      - go-server:
+      - run:
           name: Run Rails Server
           command: "rails s"
