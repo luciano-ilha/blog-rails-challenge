@@ -11,6 +11,3 @@ jobs:
       - run:
           name: Check Rails Version
           command: "rails -v"
-      - run:
-          name: Run Rails Server
-          command: "rails s"
