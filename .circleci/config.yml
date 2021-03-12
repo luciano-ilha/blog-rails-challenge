@@ -9,5 +9,5 @@ jobs:
           name: Run Bundler
           command: "bundle install"
       - run:
-          name: Check Rails Version
-          command: "rails -v"
+          name: Run tests
+          command: "rpec"
