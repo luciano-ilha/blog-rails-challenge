@@ -9,5 +9,8 @@ jobs:
           name: Run Bundler
           command: "bundle install"
       - run:
+          name: Install Rspec
+          command: "rpec"
+      - run:
           name: Run tests
           command: "rpec"
