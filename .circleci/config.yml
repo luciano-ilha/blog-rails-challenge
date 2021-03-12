@@ -9,8 +9,5 @@ jobs:
           name: Run Bundler
           command: "bundle install"
       - run:
-          name: Install Rspec
-          command: "gem install rspec-rails"
-      - run:
           name: Run tests
-          command: "rpec"
+          command: "rspec"
