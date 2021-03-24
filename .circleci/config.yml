@@ -8,6 +8,3 @@ jobs:
       - run:
           name: Run Bundler
           command: "bundle install"
-      - run:
-          name: Run tests
-          command: "rspec"
